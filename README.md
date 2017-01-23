@@ -53,6 +53,6 @@ If you edit the texture and wish to re-compile the SWC file, you can use the pro
 
 ## Credits
 
-The work is based on [RadialProgressBar](http://forum.starling-framework.org/topic/radial-progress-bar#post-88380) created by [Jakub Wagner](http://forum.starling-framework.org/topic/radial-progress-bar#post-88380). Modifications have been made by [Marcel Piestansky](https://twitter.com/marpies).
+The work is based on [RadialProgressBar](http://forum.starling-framework.org/topic/radial-progress-bar#post-88380) created by [Jakub Wagner](https://twitter.com/@jakubwagner). Modifications have been made by [Marcel Piestansky](https://twitter.com/marpies).
 
 Distributed under [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
