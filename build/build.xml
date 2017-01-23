@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Material design spinner" default="compile">
+
+    <!-- Config -->
+    <property file="build.properties"/>
+
+    <target name="compile" description="Creates SWC">
+
+        <exec executable="${air.sdk}/bin/compc${bin.ext}" failonerror="true">
+            <arg line="-source-path ../source/src"/>
+            <arg line="-include-classes feathers.extensions.MaterialDesignSpinner"/>
+            <arg line="-external-library-path+=${feathersLib}"/>
+            <arg line="-external-library-path+=${starlingLib}"/>
+            <arg line="-optimize -output ../swc/material-design-spinner.swc"/>
+        </exec>
+
+    </target>
+
+</project>
