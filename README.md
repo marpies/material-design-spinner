@@ -6,7 +6,7 @@ A simple animated display object for apps powered by [Starling](https://github.c
 
 ## Getting started
 
-You can either use a pre-compiled [SWC file](swc/) or the original source file and texture from the [source](source/) directory. The `assets` directory should be in the same level as you project's `src` directory. Alternatively, you can update the [path to the embedded texture](source/src/feathers/extensions/MaterialDesignSpinner.as#L33).
+You can either use a pre-compiled [SWC file](swc/) or the original source file and texture from the [source](source/) directory. The `assets` directory should be in the same level as your project's `src` directory. Alternatively, you can update the [path to the embedded texture](source/src/feathers/extensions/MaterialDesignSpinner.as#L33).
 
 You will also need to enable `depthAndStencil` in your app descriptor XML:
 
