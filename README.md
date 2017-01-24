@@ -8,6 +8,21 @@ A simple animated display object for apps powered by [Starling](https://github.c
 
 You can either use a pre-compiled [SWC file](swc/) or the original source file and texture from the [source](source/) directory. The `assets` directory should be in the same level as you project's `src` directory. Alternatively, you can update the [path to the embedded texture](source/src/feathers/extensions/MaterialDesignSpinner.as#L33).
 
+You will also need to enable `depthAndStencil` in your app descriptor XML:
+
+```xml
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/20.0">
+	...
+	<initialWindow>
+		...
+		<depthAndStencil>true</depthAndStencil>
+		...
+    </initialWindow>
+    ...
+</application>
+```
+
 ## Usage
 
 The spinner can be used as any other Starling DisplayObject.
